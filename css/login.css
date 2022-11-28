@@ -1,0 +1,79 @@
+
+body ,html{
+   height: 100%;
+}
+
+h1{
+   color: rgb(112, 129, 129);
+   font-size: 5rem;
+   text-align: center;
+}
+h2{
+   font-size: 3rem;
+}
+body{
+   display: flex;
+   margin: 0;
+   padding: 0;
+   background-image: url(../img/header.jpg);
+
+   /*centrar el login al centro de la pagina*/
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+
+   overflow: hidden;
+}
+
+.form-box{
+   /**/
+   width: 20rem;
+   padding: 0 2rem;
+   background: #485460;
+   text-align: center;
+}
+
+form-title{
+   color: #fff;
+   text-transform: uppercase;
+   font-weight: 900;
+}
+
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box button[type="submit"]{
+
+   border: 0;
+   background: none;
+   display: block;
+   margin: 20px auto;
+   padding: 14px 10px;
+   text-align: center;
+   border: 2px solid #eaeaeb;
+   width: 200px;
+   outline: none;
+   color: rgb(255, 255, 255);
+   border-radius: 20px;
+   transition: 0.25s;
+}
+
+
+.form-box input[type="text"]:focus,
+.form-box input[type="password"]:focus{
+
+   width: 280px;
+   border-color: #fff;
+}
+
+
+.form-box button[type="submit"]{
+   border:0;
+   background: #5352ed;
+   cursor: pointer;
+}
+
+.form-box button[type="submit"]:hover{
+   background: none;
+}
